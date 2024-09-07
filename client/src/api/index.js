@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://afit.onrender.com/api/",
+  baseURL: "",
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
