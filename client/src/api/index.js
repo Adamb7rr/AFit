@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://66dcd017b00b1b482fd31de9--a-fit.netlify.app/",
+  baseURL: "http://localhost:8080/api/",
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
