@@ -48,7 +48,7 @@ const ContactSection = () => {
       <ContactInfo>Email: bahrcr7@gmail.com</ContactInfo>
       <ContactInfo>Phone: (+20) 1205484798</ContactInfo>
       <ContactInfo>Address: Cairo, EGYPT</ContactInfo>
-      <ContactButton href="bahrcr7@gmail.com">Email Us</ContactButton>
+      <ContactButton href="mailto:bahrcr7@gmail.com">Email Us</ContactButton>
     </ContactContainer>
   );
 };
