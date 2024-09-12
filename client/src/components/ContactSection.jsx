@@ -1,6 +1,7 @@
 // src/components/ContactSection.js
 import React from 'react';
 import styled from 'styled-components';
+import BackgroundImage from '../utils/Images/FitnessBackground.png';
 
 const ContactContainer = styled.div`
   padding: 40px;
