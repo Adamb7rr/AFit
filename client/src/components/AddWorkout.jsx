@@ -25,12 +25,30 @@ const Title = styled.div`
         font-size: 14px;
     }
 `;
+const linkStyle = {
+    color: 'red',  // Change link color
+    textDecoration: 'none',  // Remove underline
+    border: '1px #ccc',
+    borderRadius: '40px',
+    fontSize: '20px',
+    width: '50%'
+};
+
+const inputStyle = {
+    width: '100%',  // Make the input fill the container width
+    padding: '10px',  // Add padding
+    fontSize: '16px',  // Set font size
+    border: '1px solid #ccc',  // Add border
+    borderRadius: '4px'  // Add border radius
+};
 
 const AddWorkout = ({ workout, setWorkout, addNewWorkout, buttonLoading }) => {
     return (
         <Card>
             <Title>Add New Workout</Title>
+            <a href="https://docs.google.com/document/d/168BF6vjsogyKl22b-RdAJ-_JtzkKB-c66i0j1Z3-KRw/edit?usp=sharing" style={linkStyle}>How To Use</a>
             <TextInput
+                style={inputStyle}
                 label="Workout"
                 textArea
                 rows={10}
@@ -53,6 +71,7 @@ const AddWorkout = ({ workout, setWorkout, addNewWorkout, buttonLoading }) => {
                 isDisabled={buttonLoading}
             />
         </Card>
+        
     );
 };
 
