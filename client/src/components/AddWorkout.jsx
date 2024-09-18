@@ -45,7 +45,7 @@ const AddWorkout = ({ workout, setWorkout, addNewWorkout, buttonLoading }) => {
     return (
         <Card>
             <Title>Add New Workout</Title>
-            <a href="https://a-fit.netlify.app/tutorials" style={linkStyle}>How To Use</a>
+            <Link href="/tutorials" style={linkStyle}>How To Use</Link>
             <TextInput
                 style={inputStyle}
                 label="Workout"
