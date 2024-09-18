@@ -9,6 +9,8 @@ import Workouts from "./pages/Workouts";
 import ContactSection from "./components/ContactSection";
 import AboutSection from "./components/AboutSection";
 import SignupPage from "./components/SignUp";
+import React from 'react';
+import Tutorials from "./pages/Tutorials";
 
 const Container = styled.div`
   width: 100%;
@@ -34,8 +36,7 @@ function App() {
               <Route path="/" exact element={<Dashboard />} />
               <Route path="/workouts" exact element={<Workouts />} />
               <Route path="/contact" element={<ContactSection />} />
-              <Route path="/about" element={<AboutSection />} />
-              <Route path="/signup" element={<SignupPage />} />
+              <Route path="/Tutorials" exact element={<Tutorials />} />
             </Routes>
           </Container>
         ) : (
