@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 import styled from "styled-components";
 import TextInput from "./TextInput";
 import Button from "./Button";
@@ -45,9 +46,9 @@ const AddWorkout = ({ workout, setWorkout, addNewWorkout, buttonLoading }) => {
     return (
         <Card>
             <Title>Add New Workout</Title>
-            <a href="https://a-fit.netlify.app/tutorials" style={linkStyle} target="_blank" rel="noopener noreferrer">
-                How To Use
-            </a>
+            <Link to="/tutorials" style={linkStyle}>
+                How To Use (Internal)
+            </Link>
             <TextInput
                 style={inputStyle}
                 label="Workout"
