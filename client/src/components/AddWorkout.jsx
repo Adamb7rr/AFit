@@ -45,7 +45,7 @@ const AddWorkout = ({ workout, setWorkout, addNewWorkout, buttonLoading }) => {
     return (
         <Card>
             <Title>Add New Workout</Title>
-            <a href={"Tutorials"} style={linkStyle}>How To Use</a>
+            <a href={"tutorials"} style={linkStyle}>How To Use</a>
             <TextInput
                 style={inputStyle}
                 label="Workout"
