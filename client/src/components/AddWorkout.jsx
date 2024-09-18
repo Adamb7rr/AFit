@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "https://a-fit.netlify.app/tutorials";
 import styled from "styled-components";
 import TextInput from "./TextInput";
 import Button from "./Button";
@@ -46,7 +46,7 @@ const AddWorkout = ({ workout, setWorkout, addNewWorkout, buttonLoading }) => {
     return (
         <Card>
             <Title>Add New Workout</Title>
-            <Link href="/tutorials" style={linkStyle}>How To Use</Link> {https://a-fit.netlify.app/tutorials}
+            <Link href="/tutorials" style={linkStyle}>How To Use</Link>
             <TextInput
                 style={inputStyle}
                 label="Workout"
