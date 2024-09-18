@@ -30,7 +30,7 @@ const linkStyle = {
     textDecoration: 'none',  // Remove underline
     border: '1px #ccc',
     borderRadius: '40px',
-    fontSize: '20px',
+    fontSize: '15px',
     width: '50%'
 };
 
@@ -41,12 +41,11 @@ const inputStyle = {
     border: '1px solid #ccc',  // Add border
     borderRadius: '4px'  // Add border radius
 };
-
 const AddWorkout = ({ workout, setWorkout, addNewWorkout, buttonLoading }) => {
     return (
         <Card>
             <Title>Add New Workout</Title>
-            <a href="https://docs.google.com/document/d/168BF6vjsogyKl22b-RdAJ-_JtzkKB-c66i0j1Z3-KRw/edit?usp=sharing" style={linkStyle}>How To Use</a>
+            <a href={"Tutorials"} style={linkStyle}>How To Use</a>
             <TextInput
                 style={inputStyle}
                 label="Workout"
