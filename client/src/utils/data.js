@@ -2,8 +2,9 @@ import {
   FitnessCenterRounded,
   LocalFireDepartmentRounded,
   TimelineRounded,
-} from "@mui/icons-material";
+} from "@mui/icons-material"; // Importing icons from Material UI
 
+// Array of fitness metrics to display
 export const counts = [
   {
     name: "Calories Burned",

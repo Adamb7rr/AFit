@@ -12,6 +12,7 @@ import SignupPage from "./components/SignUp";
 import React from 'react';
 import Tutorials from "./pages/Tutorials";
 
+// Styled container for the app layout
 const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -24,7 +25,7 @@ const Container = styled.div`
   transition: all 0.2s ease;
 `;
 
-function App() {
+function App() {    // Accessing current user from Redux state
   const { currentUser } = useSelector((state) => state.user);
   return (
     <ThemeProvider theme={lightTheme}>

@@ -16,6 +16,7 @@ const ContactInfo = styled.p`
     text-align: center;
 `;
 
+// ContactSection component definition
 const ContactSection = () => {
     return (
         <ContactContainer>

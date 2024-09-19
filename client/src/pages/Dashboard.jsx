@@ -62,6 +62,7 @@ const CardWrapper = styled.div`
   }
 `;
 
+// Dashboard component definition
 const Dashboard = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState();
@@ -73,6 +74,7 @@ const Dashboard = () => {
 -30 kg
 -10 min`);
 
+  // Fetching dashboard data
   const fetchDashboardData = useCallback(async () => {
     setLoading(true);
     const token = localStorage.getItem("afit-app-token");
@@ -99,6 +101,7 @@ const Dashboard = () => {
     }
   }, []);
 
+  // Adding a new workout
   const addNewWorkout = async () => {
     setButtonLoading(true);
     const token = localStorage.getItem("afit-app-token");
@@ -112,6 +115,7 @@ const Dashboard = () => {
     }
   };
 
+  // Fetching data on component mount
   useEffect(() => {
     fetchDashboardData();
     fetchTodaysWorkouts();

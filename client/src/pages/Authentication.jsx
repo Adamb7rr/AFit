@@ -63,7 +63,7 @@ const TextButton = styled.span`
 `;
 
 const Authentication = () => {
-  const [login, setLogin] = useState(false);
+  const [login, setLogin] = useState(false);  // State to toggle between Sign In and Sign Up
   return (
     <Container>
       <Left>
