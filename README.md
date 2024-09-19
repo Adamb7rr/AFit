@@ -1,4 +1,6 @@
 # AFit
+![AFit Website](https://github.com/user-attachments/assets/fc396957-cc2f-49d6-82e5-d51d51ebbcf2)
+)
 
 ## Introduction
 Leah's first project, AFit, is a website to record and track exercises and find out the calories burned.
@@ -67,15 +69,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## Licensing
 This project is licensed under the [Adam] License - see the [LICENSE.md](LICENSE.md) file for details.
-
-
-
-
-
-
-
-
-
-
-
-![AFit Website](https://github.com/user-attachments/assets/16b5d185-db16-4c58-af9c-f91d72d06cdb)
