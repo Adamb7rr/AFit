@@ -1,4 +1,4 @@
-# AFit
+
 ![AFit Website](https://github.com/user-attachments/assets/fc396957-cc2f-49d6-82e5-d51d51ebbcf2)
 
 
